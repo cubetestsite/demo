@@ -2,6 +2,8 @@
 
 import HeroSection from "../components/HeroSection"
 import HeroImg from "../assets/images/team-bg.png"
+import TeamCarousel from "../components/TeamCarousel"
+import BodyWrapper from "../components/BodyWrapper"
 
 const Team = () => {
   return (
@@ -11,6 +13,9 @@ const Team = () => {
         altText="product-bg-img"
         title="OUR TEAM"
       />
+      <BodyWrapper>
+      <TeamCarousel/>
+      </BodyWrapper>
     </div>
   )
 }
